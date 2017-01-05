@@ -1,4 +1,4 @@
-def worcount(happy):
+def wordcount(happy):
 	words = happy.split()
 
 	counts = {}
@@ -11,3 +11,5 @@ def worcount(happy):
 def main():
 	happy = input("Enter a statement to word count: ")
 	wordcount(happy)
+
+main()
